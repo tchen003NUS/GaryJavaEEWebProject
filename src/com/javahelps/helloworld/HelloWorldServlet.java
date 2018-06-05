@@ -26,7 +26,7 @@ public class HelloWorldServlet extends HttpServlet {
     	
     }
 
-	/**
+	/**s
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -37,7 +37,7 @@ public class HelloWorldServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
         out.print("<html><body><h1 align='center'>" +
         new Date().toString() + "</h1></body></html>");
-		System.out.print("Hello World!");
+		System.out.print("Hello World!!");
 	}
 
 	/**
